@@ -1,0 +1,1 @@
+create a one dimenional ground truth vector where all parts of the vector have zero except one

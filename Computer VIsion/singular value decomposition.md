@@ -1,0 +1,1 @@
+take out the unit vectors for each vector and the factors that are multiplied with 
