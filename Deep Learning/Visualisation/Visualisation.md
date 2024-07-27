@@ -28,7 +28,7 @@ motivation? why it performs better in controlled enviornment but fails in lab
 *confounding factor or cofounder is an external factor from the data that influences the training*
 if cofounder is knwon actively include the information and try to supress it or try to avoid them in data collection
 
-Adverarial example: if you know the entire network you can deisgn a noise pattern which can lead to false prediction
+Adversarial example: if you know the entire network you can deisgn a noise pattern which can lead to false prediction
 
 
 - visualise the learn kernel or filter weights to see the patterns - if its very noisy theres something wrong
@@ -39,4 +39,9 @@ Adverarial example: if you know the entire network you can deisgn a noise patter
 
 *no notes, see slides for*
 Gradient based visualisation
+
+- [[decovnet]]
+- [[guided back propagation]]
+- [[saliency map]]
+- [[Google DeepDream Inceptionism]]
 Optimisation based techniques

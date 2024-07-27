@@ -13,37 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Object detection.md",
+                "file": "Deep Learning/Visualisation/Visualisation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6016c323eae793c8",
+            "id": "32aec0e6a45ea55c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/regulerisation/L1 norm.md",
+                "file": "Deep Learning/Visualisation/Attention Mechanism.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "73c6106c11c2b8d9",
+            "id": "c2d8c08634b4fd9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/regulerisation/L2 regularization.md",
+                "file": "Deep Learning/Visualisation/saliency map.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7267e22aa6d564d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Learning/Visualisation/guided back propagation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bfe480ff2c3f7e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Learning/Visualisation/decovnet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Object detection.md",
+                "file": "Deep Learning/Visualisation/Attention Mechanism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Object detection.md",
+                "file": "Deep Learning/Visualisation/Attention Mechanism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Object detection.md"
+                "file": "Deep Learning/Visualisation/Attention Mechanism.md"
               }
             }
           },
@@ -187,11 +212,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e86f3d64f3f3f83",
+  "active": "32aec0e6a45ea55c",
   "lastOpenFiles": [
-    "Deep Learning/Segmentation.md",
-    "Deep Learning/Object detection.md",
+    "Deep Learning/Visualisation/Untitled.md",
+    "Deep Learning/Visualisation/saliency map.md",
+    "Deep Learning/Visualisation/guided back propagation.md",
+    "Deep Learning/Visualisation/Attention Mechanism.md",
+    "Deep Learning/Visualisation/Google DeepDream Inceptionism.md",
+    "Deep Learning/Visualisation/Visualisation.md",
+    "Google DeepDream / Inceptionism.md",
+    "Google DeepDream ",
+    "Deep Learning/Visualisation/decovnet.md",
+    "Deep Learning/dying relu.md",
+    "Deep Learning/feed forward neural network/1. feed forward Neural Networks.md",
     "Deep Learning/activation function/activation functions.md",
+    "Deep Learning/Object detection.md",
+    "README.md",
+    "Deep Learning/Segmentation.md",
     "Deep Learning/regulerisation/Self Normalising Neural Networks.md",
     "Deep Learning/regulerisation/Transfer Learning.md",
     "Deep Learning/regulerisation/Overfitting.md",
@@ -204,17 +241,6 @@
     "Deep Learning/feed forward neural network/deep neural network.md",
     "Deep Learning/feed forward neural network/5. layer abstraction.md",
     "Deep Learning/feed forward neural network/4. Back Propagation.md",
-    "Deep Learning/feed forward neural network/3. Optimising Problem.md",
-    "Deep Learning/feed forward neural network/3. loss functions.md",
-    "Deep Learning/feed forward neural network/2. activation functions.md",
-    "Deep Learning/feed forward neural network/1. feed forward Neural Networks.md",
-    "Deep Learning/Convolutional Neural Networks/Convolutional Neural Networks.md",
-    "Deep Learning/Common Practices/Evaluation.md",
-    "Deep Learning/Common Practices/Ensembling.md",
-    "Deep Learning/Common Practices/Common Practices.md",
-    "Deep Learning/Common Practices/Class Imbalance.md",
-    "Deep Learning/Common Practices/Architecture Selection and Parameter Selection.md",
-    "Deep Learning/Architecture/Introduction.md",
     "Deep Learning/Architecture",
     "Deep Learning/Common Practices",
     "Deep Learning/regulerisation",
@@ -232,7 +258,6 @@
     "screenshots/Screenshot from 2024-07-03 00-43-10.png",
     "screenshots/Screenshot from 2024-07-03 00-35-59.png",
     "smart-chats",
-    "deep_learning/Convolutional Neural Networks",
     "screenshots/Screenshot from 2024-05-20 16-24-25.png",
     "screenshots/Screenshot from 2024-05-19 15-30-32.png",
     "screenshots/Screenshot from 2024-05-19 15-10-39.png",
