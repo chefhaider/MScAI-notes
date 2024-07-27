@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "73f9557514e6146a",
+        "id": "389545ed11f51783",
         "type": "tabs",
         "children": [
           {
-            "id": "4e86f3d64f3f3f83",
+            "id": "540f37bfa5738007",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Visualisation/Visualisation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32aec0e6a45ea55c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning/Visualisation/Attention Mechanism.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2d8c08634b4fd9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning/Visualisation/saliency map.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7267e22aa6d564d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning/Visualisation/guided back propagation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bfe480ff2c3f7e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning/Visualisation/decovnet.md",
+                "file": "Deep Learning/Unsupervised/Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Visualisation/Attention Mechanism.md",
+                "file": "Deep Learning/Unsupervised/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Visualisation/Attention Mechanism.md",
+                "file": "Deep Learning/Unsupervised/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Visualisation/Attention Mechanism.md"
+                "file": "Deep Learning/Unsupervised/Introduction.md"
               }
             }
           },
@@ -212,23 +163,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32aec0e6a45ea55c",
+  "active": "540f37bfa5738007",
   "lastOpenFiles": [
-    "Deep Learning/Visualisation/Untitled.md",
-    "Deep Learning/Visualisation/saliency map.md",
-    "Deep Learning/Visualisation/guided back propagation.md",
+    "Deep Learning/Unsupervised/Label-free learning.md",
+    "Deep Learning/Unsupervised/Introduction.md",
     "Deep Learning/Visualisation/Attention Mechanism.md",
-    "Deep Learning/Visualisation/Google DeepDream Inceptionism.md",
     "Deep Learning/Visualisation/Visualisation.md",
+    "Deep Learning/Visualisation/Google DeepDream Inceptionism.md",
+    "Deep Learning/Visualisation/decovnet.md",
+    "Deep Learning/Visualisation/guided back propagation.md",
+    "Deep Learning/Visualisation/saliency map.md",
+    "Deep Learning/Visualisation/Untitled.md",
+    "Deep Learning/Segmentation.md",
+    "Deep Learning/dying relu.md",
+    "Deep Learning/Object detection.md",
     "Google DeepDream / Inceptionism.md",
     "Google DeepDream ",
-    "Deep Learning/Visualisation/decovnet.md",
-    "Deep Learning/dying relu.md",
     "Deep Learning/feed forward neural network/1. feed forward Neural Networks.md",
     "Deep Learning/activation function/activation functions.md",
-    "Deep Learning/Object detection.md",
     "README.md",
-    "Deep Learning/Segmentation.md",
     "Deep Learning/regulerisation/Self Normalising Neural Networks.md",
     "Deep Learning/regulerisation/Transfer Learning.md",
     "Deep Learning/regulerisation/Overfitting.md",
@@ -239,8 +192,6 @@
     "Deep Learning/regulerisation/Bias Variance.md",
     "Deep Learning/regulerisation/Batch Normalisation.md",
     "Deep Learning/feed forward neural network/deep neural network.md",
-    "Deep Learning/feed forward neural network/5. layer abstraction.md",
-    "Deep Learning/feed forward neural network/4. Back Propagation.md",
     "Deep Learning/Architecture",
     "Deep Learning/Common Practices",
     "Deep Learning/regulerisation",

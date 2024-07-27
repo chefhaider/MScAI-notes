@@ -1,40 +1,80 @@
-there is a forward pass in the encoder which takes the input, from that we compute the hidden state - which is used as a context vector for the decoder network which is the representation or actual meaning of the state, ht is decoded by the decoder which generates a new sequence which computes own hidden state - which also generates an output sequence
-problem?
-the encoding is difficult because the entire meaning has to be represented in one context vector
 
-Attention: Seq2Seq context vector
-the context vecctor is produced at the end and and by that the initial inputs donot play much role, so a biderectional RNN is used so after on forward pass the input is reveresed for the another forward pass, from the two passes the hidden states are concatenated, and a weighted average is calculated of each hidden state with alpha - weight which provides a dynamic context for decoder so this allows to model different lengths in input and output
+## Overview
 
-how to produce those alphas  - alignment weights, if the states are relevant for the current observation then you get  a high score
+In neural networks, the attention mechanism allows models to focus on different parts of the input sequence when producing each element of the output sequence. This mechanism addresses the limitations of using a fixed-size context vector in encoder-decoder architectures.
 
-the score funtion is trained also allows interpretation through visualisation
+## Encoder-Decoder Architecture
 
-kinds of attention:
-Soft Attention vs Hard Attention
-sofft attentions is not effiecent for large inputs
-for hard attention we sample from distibution (patches)  but since it is not differnetiable
+1. **Forward Pass in the Encoder**: The encoder processes the input sequence and computes a series of hidden states.
+2. **Hidden State as Context Vector**: The final hidden state (context vector) represents the entire input sequence's meaning.
+3. **Decoder**: The decoder uses this context vector to generate a new sequence. It computes its own hidden states and generates the output sequence.
 
+### Problem with Basic Encoder-Decoder
 
-show-attned-tell
-different rois trigger different keys which is used for caption generation
+The primary issue is that encoding the entire input sequence into a single context vector can be challenging, especially for long sequences. This fixed-size context vector must capture all relevant information, which is often infeasible.
 
+## Attention Mechanism
 
-Self-Attentions
-to compute the attention of its sequence to itself
+### Context Vector in Seq2Seq
 
-which can be used for machine translation
+In standard Seq2Seq models, the context vector is produced at the end of the encoder. This makes initial inputs less influential. To address this, a bidirectional RNN is used:
 
-Attention is all you need
-no rnn or cnvolution required, iteratively improve the representation oy it self attention mechanism
+1. **Bidirectional RNN**: The input sequence is processed in both forward and backward directions.
+2. **Concatenation of Hidden States**: Hidden states from both passes are concatenated.
+3. **Weighted Average (Alpha Weights)**: A weighted average of each hidden state is calculated using alpha weights, providing a dynamic context for the decoder. This enables modeling of different input and output lengths.
 
-encoder blocks
-- self attention step
-- local fully connected layers
+### Producing Alpha Weights
 
-input emeddings for the encoder
-one hot encoding is ver coars and attention networks needs  emebedic algorithim (general function approximator)  which compresses and produced an embedding and then it produces self attention for each token 
+Alignment weights (alphas) determine the relevance of encoder states for each decoder time step:
 
-for each token we compute, q,k,v
+1. **Relevance Scores**: High scores indicate states relevant to the current observation.
+2. **Training the Score Function**: The score function is trained and can be interpreted through visualization.
 
-and allignment between q, and k determine the influence 
-(add attention formula here  )
+## Types of Attention
+
+### Soft Attention vs. Hard Attention
+
+1. **Soft Attention**: Efficient for small to moderate input sizes.
+2. **Hard Attention**: Samples from a distribution (patches) and is not differentiable, making it less efficient but useful for larger inputs.
+
+## Applications of Attention
+
+### Show-Attend-Tell
+
+Different regions of interest (ROIs) trigger different keys, which are used for generating captions.
+
+### Self-Attention
+
+Computes the attention of a sequence to itself and can be used for tasks like machine translation.
+
+## "Attention is All You Need"
+
+This model, known as the Transformer, eliminates the need for RNNs or convolutions. It iteratively improves the representation through self-attention mechanisms.
+
+### Encoder Blocks
+
+1. **Self-Attention Step**
+2. **Local Fully Connected Layers**
+
+### Input Embeddings for the Encoder
+
+1. **One-Hot Encoding**: Very coarse and not suitable for attention networks.
+2. **Embedding Algorithm**: Compresses the input and produces an embedding. The model then computes self-attention for each token.
+
+### Computing Q, K, V
+
+For each token in the sequence, we compute:
+
+- **Q (Query)**
+- **K (Key)**
+- **V (Value)**
+
+The alignment between Q and K determines the influence of tokens on each other.
+
+### Attention Formula
+
+The attention mechanism can be mathematically described as:
+
+$$ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V $$
+
+where \(d_k\) is the dimension of the key vectors.

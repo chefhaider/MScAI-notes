@@ -11,7 +11,9 @@ sol
 weakly supervised 
 
 using the label and gradient we can localise the label, thus we can get cheap bounding boxes
+
 semi supervised technique: partial or little data of labels and we try to apply to a larger dataset
+
 a typical technique would be bootstraping we make a classifer from partial data and then estimate which of the data points have been classified correctly and then we take the reliable into a new training set and we iterate untill we have a better system
 Unspuervised: we have no labeled data
 
