@@ -1,16 +1,8 @@
 
 
-The "dying ReLU problem" is an issue that occurs when training neural networks using the Rectified Linear Unit (ReLU) activation function. This problem arises when a large number of ReLU neurons become inactive and stop learning because they always output zero.
+This problem arises when a large number of ReLU neurons become inactive and stop learning because they always output zero.
 
-### Understanding ReLU and the Problem
-The ReLU activation function is defined as:
-\[ \text{ReLU}(x) = \max(0, x) \]
 
-This means that if the input \( x \) is positive, the output is \( x \), and if the input \( x \) is negative, the output is 0. ReLU is popular because it helps mitigate the vanishing gradient problem and often leads to faster convergence during training.
-
-However, during training, if a neuron's weights are updated in such a way that the input to the ReLU is always negative, the neuron will always output zero. This situation is referred to as the neuron being "dead" because it doesn't contribute to the learning process anymore. This is problematic because:
-- **Information Loss:** Dead neurons do not contribute to the model's output, leading to a reduction in the model's capacity to learn complex patterns.
-- **Irreversible:** Once a neuron is dead, it can be difficult for it to become active again, especially if the gradient flowing back through it is zero.
 
 ### Causes
 1. **Large Learning Rates:** High learning rates can cause significant changes in weights, making it likely for neurons to end up in the negative input regime.

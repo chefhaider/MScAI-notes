@@ -4,19 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "389545ed11f51783",
+        "id": "d2451530ed5186a5",
         "type": "tabs",
         "children": [
           {
-            "id": "540f37bfa5738007",
+            "id": "b3914dc7bdb888af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning/Unsupervised/Introduction.md",
+                "file": "Computer VIsion/Feature Descriptors.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "84ba89a117b25506",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38650bc4333b2bb9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer VIsion/Recap CV.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           }
         ]
@@ -48,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "alias",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 316.5
   },
   "right": {
     "id": "e9e52a6bc987522a",
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Unsupervised/Introduction.md",
+                "file": "Computer VIsion/Recap CV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Unsupervised/Introduction.md",
+                "file": "Computer VIsion/Recap CV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Unsupervised/Introduction.md"
+                "file": "Computer VIsion/Recap CV.md"
               }
             }
           },
@@ -163,52 +183,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "540f37bfa5738007",
+  "active": "38650bc4333b2bb9",
   "lastOpenFiles": [
-    "Deep Learning/Unsupervised/Label-free learning.md",
-    "Deep Learning/Unsupervised/Introduction.md",
-    "Deep Learning/Visualisation/Attention Mechanism.md",
-    "Deep Learning/Visualisation/Visualisation.md",
-    "Deep Learning/Visualisation/Google DeepDream Inceptionism.md",
-    "Deep Learning/Visualisation/decovnet.md",
-    "Deep Learning/Visualisation/guided back propagation.md",
-    "Deep Learning/Visualisation/saliency map.md",
-    "Deep Learning/Visualisation/Untitled.md",
-    "Deep Learning/Segmentation.md",
-    "Deep Learning/dying relu.md",
-    "Deep Learning/Object detection.md",
-    "Google DeepDream / Inceptionism.md",
-    "Google DeepDream ",
-    "Deep Learning/feed forward neural network/1. feed forward Neural Networks.md",
+    "Computer VIsion/Feature Descriptors.md",
+    "Computer VIsion/Hessian Matrix.md",
+    "Computer VIsion/Recap CV.md",
+    "Computer VIsion/Corner Detection.md",
+    "Computer VIsion/Edge Detection.md",
+    "Computer VIsion/Edges and Corner.md",
+    "Computer VIsion/Camera Calibration.md",
+    "Computer VIsion/Dense Motion Estimation.md",
+    "Computer VIsion/singular value decomposition.md",
+    "Computer VIsion/Stereo Triangulation.md",
+    "Computer VIsion/Stereo Vision.md",
+    "Computer VIsion/Structured Light.md",
+    "Computer VIsion/Surface Reconstruction.md",
+    "Computer VIsion/Thinking In Frequency.md",
+    "Computer VIsion/Singular Value Decomposition.md",
+    "Computer VIsion/Epipolar Geometry/Epipolar Geometry.md",
+    "Equation lookup for MD and Latex.md",
+    "Computer VIsion/Features Cameras Optics Prespectives/camera callibratin.md",
+    "Deep Learning/Convolutional Neural Networks/Padding.md",
+    "Computer VIsion/Features Cameras Optics Prespectives",
+    "Computer VIsion/Epipolar Geometry/Fundementals.md",
+    "Computer VIsion/Epipolar Geometry",
+    "Deep Learning/optimization and loss/3. Gradient Descent.md",
+    "Computer Vision",
+    "Deep Learning/optimization and loss/1. loss functions.md",
+    "Deep Learning/optimization and loss/SVM.md",
+    "Deep Learning/optimization and loss/2. Hinge Loss and Subgradients.md",
     "Deep Learning/activation function/activation functions.md",
-    "README.md",
-    "Deep Learning/regulerisation/Self Normalising Neural Networks.md",
-    "Deep Learning/regulerisation/Transfer Learning.md",
-    "Deep Learning/regulerisation/Overfitting.md",
-    "Deep Learning/regulerisation/Multi Task Learning.md",
-    "Deep Learning/regulerisation/L2 regularization.md",
     "Deep Learning/regulerisation/L1 norm.md",
-    "Deep Learning/regulerisation/Initilisation.md",
-    "Deep Learning/regulerisation/Bias Variance.md",
-    "Deep Learning/regulerisation/Batch Normalisation.md",
-    "Deep Learning/feed forward neural network/deep neural network.md",
+    "Deep Learning/Untitled",
+    "Google DeepDream ",
     "Deep Learning/Architecture",
     "Deep Learning/Common Practices",
     "Deep Learning/regulerisation",
     "Unsupervised",
     "deep_learning/Reinforcement Learning",
-    "deep_learning/Visualisation",
-    "deep_learning/RNN",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "screenshots/Screenshot from 2024-05-19 14-47-49.png",
-    "screenshots",
     "screenshots/Screenshot from 2024-07-03 00-51-50.png",
     "screenshots/Screenshot from 2024-07-03 00-49-53.png",
     "screenshots/Screenshot from 2024-07-03 00-47-22.png",
     "screenshots/Screenshot from 2024-07-03 00-43-10.png",
     "screenshots/Screenshot from 2024-07-03 00-35-59.png",
-    "smart-chats",
     "screenshots/Screenshot from 2024-05-20 16-24-25.png",
     "screenshots/Screenshot from 2024-05-19 15-30-32.png",
     "screenshots/Screenshot from 2024-05-19 15-10-39.png",

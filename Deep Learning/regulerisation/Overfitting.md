@@ -3,7 +3,7 @@
  - Early stopping, use a validation set to determine, minum loss during the iteration and stop at there
  - data augmentation
  - Regularise the loss function with maximum aposterior estimation
- - Augmented Loss function - we use regularisation in weight update like
+ - Augmented Loss function - we use regularisation in weight update like - regularisor means controlling the loss outputs which favours the learning
 	 -[[L2 regularization]]- which reduced overfitting - the L2 loss pullls it away from data optimal loss wrt training set.
 	 - if we want weigths to be sparse or build networks with few connections we can use [[L1 norm]] on weight updates
 - [[Batch Normalisation]]

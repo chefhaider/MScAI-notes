@@ -16,7 +16,7 @@ use the validation  set, the trainig loss would always go down, but the test los
  tip: save intermediate model which can be used for evaluating later
  monitor the weights, and keep track of the updates -  the range should be sensible like 1e-3
  for CNN we can use initial filters, to check if they are smooth and not too noisy
- consider - dying relu problem by checking large activations 
+ consider - [[dying relu]] problem by checking large activations 
 
 ## practices for optimisers and learning rate
 

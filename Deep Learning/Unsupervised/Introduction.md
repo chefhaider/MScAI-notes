@@ -27,3 +27,14 @@ Clustering - identify images in a low dimensional space
 generative models - 
 		further applications
 			missing data, image to image translation, reinforcement learning(simulate possible futures)
+
+
+AE
+(add a simple axplaination)
+
+VAE
+with variation autoencoder, we replace the intermediate latent space which was deterministic with a probabalistic/sthocashtic operation
+
+instead of predecting a single deterministic output, we are producing mean and standard deviation which would sample from z
+
+the regularisor term in the vae loss encourages the ecodings evenly around the centre of the latent space, and penalises the network when it tries to cheatby clustering points in specific regions
