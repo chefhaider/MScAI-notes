@@ -1,4 +1,8 @@
 stereo: two cameras 
+a stereo vision must solve two problems
+- correspondence problem (disparity)
+- reconstitution problem
+
 multiple cameras can be considered for precision
 
 
@@ -10,9 +14,8 @@ identify a position of certain point in 3D.
 	 - follow along the epiplor line to find the point
 	 - our assumption is that epipolar lines are parellel
 - binocular stereo:   identifying depth of objects based on movements
-
-- correspondence problem (disparity)
-- reconstitution problem
+	
+	
 
 - noise and correspances - estimation of the points would be slightly off
 

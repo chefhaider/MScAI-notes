@@ -11,3 +11,15 @@ calibration phatnom, constructed by design if you know the 3d points,  and from 
 
 problem with least squares methode y=mx +b is it fails for vertical lines because then m=>inf
 fix ax+by+c i.e hessian normal form
+
+see formulation
+
+QR factorisation
+R - right diagonal is K
+Q - orthogonal basis is R
+T is inv(K)\*M\[-1]
+
+camera centre -  C is $-R⁻^1K⁻¹$
+
+
+
