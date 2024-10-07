@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d2451530ed5186a5",
+        "id": "414c77dd36f71bbb",
         "type": "tabs",
         "children": [
           {
-            "id": "185e5ea0837054b6",
+            "id": "56c011d0bc00300a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer VIsion/Stereo Vision.md",
+                "file": "Pattern Recognition/Kernal Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,21 +22,19 @@
         ]
       },
       {
-        "id": "84ba89a117b25506",
+        "id": "b1a777879e091181",
         "type": "tabs",
         "children": [
           {
-            "id": "38650bc4333b2bb9",
+            "id": "988fb9b02c0b2d68",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer VIsion/Recap CV.md",
+                "file": "Pattern Recognition/Recap.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ]
@@ -105,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer VIsion/Recap CV.md",
+                "file": "Pattern Recognition/Recap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer VIsion/Recap CV.md",
+                "file": "Pattern Recognition/Recap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer VIsion/Recap CV.md"
+                "file": "Pattern Recognition/Recap.md"
               }
             }
           },
@@ -183,44 +181,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38650bc4333b2bb9",
+  "active": "988fb9b02c0b2d68",
   "lastOpenFiles": [
-    "Computer VIsion/Stereo Vision.md",
-    "Computer VIsion/Recap CV.md",
-    "Computer VIsion/Dense Motion Estimation.md",
-    "Computer VIsion/Epipolar Geometry/Epipolar Geometry.md",
+    "Pattern Recognition/Kernal Functions.md",
+    "Pattern Recognition/Perceptrons.md",
+    "Pattern Recognition/Recap.md",
+    "Pattern Recognition/Logistic Regression.md",
     "Computer VIsion/Camera Calibration.md",
-    "Equation lookup for MD and Latex.md",
-    "Computer VIsion/SVD.md",
     "Computer VIsion/Camera Optics.md",
+    "Computer VIsion/Dense Motion Estimation.md",
     "Computer VIsion/Edge Detection.md",
-    "Computer VIsion/Feature Descriptors.md",
-    "Computer VIsion/Corner Detection.md",
-    "Computer VIsion/Thinking In Frequency.md",
-    "Computer VIsion/Hessian Matrix.md",
     "Computer VIsion/Edges and Corner.md",
+    "Computer VIsion/Feature Descriptors.md",
+    "Computer VIsion/Recap CV.md",
+    "Computer VIsion/Singular Value Decomposition.md",
     "Computer VIsion/singular value decomposition.md",
     "Computer VIsion/Stereo Triangulation.md",
-    "Computer VIsion/Structured Light.md",
-    "Computer VIsion/Surface Reconstruction.md",
-    "Computer VIsion/Singular Value Decomposition.md",
-    "Computer VIsion/Features Cameras Optics Prespectives/camera callibratin.md",
-    "Deep Learning/Convolutional Neural Networks/Padding.md",
+    "Pattern Recognition/Norms.md",
+    "Pattern Recognition/Optimisation.md",
+    "Pattern Recognition/Linear Regression.md",
+    "Pattern Recognition/Discriminant Analysis.md",
+    "Pattern Recognition/Laplacian SVM.md",
+    "Pattern Recognition/Naive Bayes.md",
+    "Pattern Recognition/Support Vector Machines.md",
+    "Equation lookup for MD and Latex.md",
+    "Pattern Recognition/Untitled",
+    "Pattern Recognition",
+    "Computer VIsion/Stereo Vision.md",
+    "Computer VIsion/Epipolar Geometry/Epipolar Geometry.md",
+    "Computer VIsion/SVD.md",
+    "Computer VIsion/Corner Detection.md",
     "Computer VIsion/Features Cameras Optics Prespectives",
-    "Computer VIsion/Epipolar Geometry/Fundementals.md",
     "Computer VIsion/Epipolar Geometry",
-    "Deep Learning/optimization and loss/3. Gradient Descent.md",
     "Computer Vision",
-    "Deep Learning/optimization and loss/1. loss functions.md",
-    "Deep Learning/optimization and loss/SVM.md",
-    "Deep Learning/optimization and loss/2. Hinge Loss and Subgradients.md",
     "Deep Learning/Untitled",
     "Google DeepDream ",
     "Deep Learning/Architecture",
     "Deep Learning/Common Practices",
     "Deep Learning/regulerisation",
-    "Unsupervised",
-    "deep_learning/Reinforcement Learning",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "screenshots/Screenshot from 2024-05-19 14-47-49.png",
