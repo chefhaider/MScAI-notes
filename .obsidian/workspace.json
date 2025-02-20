@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "414c77dd36f71bbb",
+        "id": "6d886fd03b6bd03a",
         "type": "tabs",
         "children": [
           {
-            "id": "56c011d0bc00300a",
+            "id": "d200facbecd91736",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pattern Recognition/Kernal Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "b1a777879e091181",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "988fb9b02c0b2d68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pattern Recognition/Recap.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -56,8 +36,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -72,7 +55,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -80,14 +65,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 200
   },
   "right": {
     "id": "e9e52a6bc987522a",
@@ -103,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pattern Recognition/Recap.md",
+                "file": "Advanced Programming Tech/basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +98,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for basics"
             }
           },
           {
@@ -120,10 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pattern Recognition/Recap.md",
+                "file": "Advanced Programming Tech/basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from basics"
             }
           },
           {
@@ -134,7 +125,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -143,8 +136,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pattern Recognition/Recap.md"
-              }
+                "file": "Advanced Programming Tech/basics.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of basics"
             }
           },
           {
@@ -152,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -160,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -181,56 +180,95 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "988fb9b02c0b2d68",
+  "floating": {
+    "id": "e0520221ab075127",
+    "type": "floating",
+    "children": [
+      {
+        "id": "b1f9dd44ef13c1c2",
+        "type": "window",
+        "children": [
+          {
+            "id": "f7e5e49b23c5bcf6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "56b00d87eb075770",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Cognitive Neuroscience/Exam Summary.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Exam Summary"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1189,
+        "y": 32,
+        "width": 731,
+        "height": 1048,
+        "maximize": true,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "56b00d87eb075770",
   "lastOpenFiles": [
-    "Pattern Recognition/Kernal Functions.md",
-    "Pattern Recognition/Perceptrons.md",
-    "Pattern Recognition/Recap.md",
-    "Pattern Recognition/Logistic Regression.md",
-    "Computer VIsion/Camera Calibration.md",
-    "Computer VIsion/Camera Optics.md",
-    "Computer VIsion/Dense Motion Estimation.md",
-    "Computer VIsion/Edge Detection.md",
-    "Computer VIsion/Edges and Corner.md",
-    "Computer VIsion/Feature Descriptors.md",
-    "Computer VIsion/Recap CV.md",
-    "Computer VIsion/Singular Value Decomposition.md",
-    "Computer VIsion/singular value decomposition.md",
-    "Computer VIsion/Stereo Triangulation.md",
-    "Pattern Recognition/Norms.md",
-    "Pattern Recognition/Optimisation.md",
-    "Pattern Recognition/Linear Regression.md",
-    "Pattern Recognition/Discriminant Analysis.md",
-    "Pattern Recognition/Laplacian SVM.md",
-    "Pattern Recognition/Naive Bayes.md",
-    "Pattern Recognition/Support Vector Machines.md",
-    "Equation lookup for MD and Latex.md",
+    "Screenshot from 2025-02-20 18-47-43.png",
+    "Cognitive Neuroscience/Exam Summary.md",
+    "Screenshot from 2025-02-19 16-20-49.png",
+    "Screenshot from 2025-02-19 16-20-02.png",
+    "Cognitive Neuroscience/Neural Computation - Easy Summary.md",
+    "Musical Analysis/Musically Informed Audio Decompostition.md",
+    "Screenshot from 2025-02-18 17-31-17.png",
+    "Screenshot from 2025-02-18 17-30-01.png",
+    "Screenshot from 2025-02-18 17-17-43 1.png",
+    "Screenshot from 2025-02-18 17-17-43.png",
+    "Human Robot Co-adaptation.md",
+    "human robot adaptation.md",
+    "human robot  adaptation",
+    "Musical Analysis/sitar project.md",
+    "Musical Analysis/Fundamental concepts.md",
+    "screenshots/Screenshot from 2025-01-09 21-21-33.png",
+    "previous courses/Deep Learning/Common Practices/Class Imbalance.md",
+    "previous courses/Deep Learning/Common Practices/Evaluation.md",
+    "previous courses/Deep Learning/Common Practices/Ensembling.md",
+    "previous courses/Deep Learning/activation function/activation functions.md",
+    "Musical Analysis/1. music representation.md",
+    "previous courses",
+    "Musical Analysis/Fourier Analysis of Signals.md",
+    "Musical Analysis/Western Notes Theory.md",
+    "Musical Analysis/STFT.md",
+    "Advanced Programming Tech/basics.md",
+    "Advanced Programming Tech",
+    "Musical Analysis",
+    "previous courses/Pattern Recognition/Recap.md",
+    "previous courses/Pattern Recognition/Kernal Functions.md",
+    "previous courses/Pattern Recognition/Perceptrons.md",
+    "previous courses/Pattern Recognition/Logistic Regression.md",
+    "previous courses/Computer VIsion/Camera Calibration.md",
+    "previous courses/Computer VIsion/Camera Optics.md",
+    "previous courses/Computer VIsion/Dense Motion Estimation.md",
+    "previous courses/Computer VIsion/Edge Detection.md",
+    "previous courses/Computer VIsion/Edges and Corner.md",
     "Pattern Recognition/Untitled",
-    "Pattern Recognition",
-    "Computer VIsion/Stereo Vision.md",
-    "Computer VIsion/Epipolar Geometry/Epipolar Geometry.md",
-    "Computer VIsion/SVD.md",
-    "Computer VIsion/Corner Detection.md",
+    "previous courses/Pattern Recognition",
     "Computer VIsion/Features Cameras Optics Prespectives",
-    "Computer VIsion/Epipolar Geometry",
+    "previous courses/Computer VIsion/Epipolar Geometry",
     "Computer Vision",
     "Deep Learning/Untitled",
-    "Google DeepDream ",
-    "Deep Learning/Architecture",
-    "Deep Learning/Common Practices",
-    "Deep Learning/regulerisation",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "screenshots/Screenshot from 2024-05-19 14-47-49.png",
     "screenshots/Screenshot from 2024-07-03 00-51-50.png",
     "screenshots/Screenshot from 2024-07-03 00-49-53.png",
-    "screenshots/Screenshot from 2024-07-03 00-47-22.png",
-    "screenshots/Screenshot from 2024-07-03 00-43-10.png",
-    "screenshots/Screenshot from 2024-07-03 00-35-59.png",
-    "screenshots/Screenshot from 2024-05-20 16-24-25.png",
-    "screenshots/Screenshot from 2024-05-19 15-30-32.png",
-    "screenshots/Screenshot from 2024-05-19 15-10-39.png",
-    "screenshots/Screenshot from 2024-05-19 15-00-52.png",
     "statistical_theory/Untitled.canvas"
   ]
 }
