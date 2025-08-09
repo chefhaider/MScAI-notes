@@ -1,0 +1,55 @@
+
+
+- **Statement:** The smallest independent unit in a C++ program, analogous to a sentence in a natural language, and ends in a semicolon.
+- **Block:** A sequence of statements enclosed in curly braces.
+- **Curly brace:** Delimits blocks of code.
+- **Function:** A named unit of computation.
+- **Main function:** The function called by the operating system when executing a C++ program; each program must have one and only one function named `main`.
+- **Function body:** The statement block that defines the actions performed by a function.
+- **Function name:** The name by which a function is known and can be called.
+- **Return type:** The type of the value returned by a function.
+- **Parameter list:** Part of the definition of a function, possibly empty, that specifies what arguments can be used to call the function.
+- **Argument:** A value passed to a function when it is called.
+- **Variable:** A named object.
+- **Built-in type:** A type, such as `int`, defined by the language.
+- **Uninitialized variable:** A variable that has no initial value specified.
+- **Comments:** Program text ignored by the compiler; can be single-line (`//`) or paired (`/*...*/`).
+- **Expression:** The smallest unit of computation, consisting of one or more operands and usually an operator.
+- **Header:** A mechanism whereby the definitions of a class or other names may be made available to multiple programs; included in a program through a `#include` directive.
+- **Preprocessor directive:** An instruction to the C++ preprocessor, such as `#include`; preprocessor directives must appear on a single line.
+- **Source file:** A file that contains a C++ program.
+- **Standard library:** A collection of types and functions that every C++ compiler must support, providing a rich set of capabilities including the types that support IO.
+- **iostream:** Library type providing stream-oriented input and output (also istream, ostream).
+- **Library type:** A type, such as `istream`, defined by the standard library.
+- **Standard input:** The input stream that ordinarily is associated by the operating system with the window in which the program executes.
+- **cin:** `istream` object used to read from the standard input.
+- **Standard output:** The output stream that ordinarily is associated by the operating system with the window in which the program executes.
+- **cout:** `ostream` object used to write to the standard output, ordinarily used to write the output of a program.
+- **Standard error:** An output stream intended for use for error reporting.
+- **cerr:** `ostream` object tied to the standard error, which is often the same stream as the standard output; by default, writes to `cerr` are not buffered.
+- **clog:** `ostream` object tied to the standard error; by default, writes to `clog` are buffered and usually used to report information about program execution to a log file.
+- **<< operator:** Output operator, which writes the right-hand operand to the output stream indicated by the left-hand operand (e.g., `cout << "hi"` writes `hi` to the standard output).
+- **>> operator:** Input operator, which reads from the input stream specified by the left-hand operand into the right-hand operand (e.g., `cin >> i` reads the next value on the standard input to `i`).
+- **Buffer:** A region of storage used to hold data; IO facilities often store input (or output) in a buffer and read or write the buffer independently of actions in the program.
+- **Manipulator:** An object, such as `std::endl`, that when read or written "manipulates" the stream itself.
+- **Namespace:** A mechanism for putting names defined by a library into a single place, helping to avoid inadvertent name clashes.
+- **std:** The name of the namespace used by the standard library; `std::cout` indicates that we're using the name `cout` defined in the `std` namespace.
+- **:: operator:** Scope operator, used to access names in a namespace (e.g., `std::cout` says to use the name `cout` from the namespace `std`).
+- **While statement:** An iterative control statement that executes the statement that is the while body as long as a specified condition is true.
+- **Condition:** An expression that is evaluated as true or false; an arithmetic expression that evaluates to zero is false; any other value yields true.
+- **++ operator:** Increment operator, adds one to the operand; `++i` is equivalent to `i = i + 1`.
+- **+= operator:** A compound assignment operator, which adds the right-hand operand to the left and stores the result back into the left-hand operand; `a += b` is equivalent to `a = a + b`.
+- **= operator:** Assigns the value of the right-hand operand to the object denoted by the left-hand operand.
+- **< operator:** The less-than operator, tests whether the left-hand operand is less than the right-hand (<= operator , >= operator, > operator).
+- **== operator:** The equality operator, tests whether the left-hand operand is equal to the right-hand.
+- **!= operator:** The inequality operator, tests whether the left-hand operand is not equal to the right-hand.
+- **End-of-file:** System-specific marker in a file that indicates that there is no more input in the file (CTRL + Z or +D).
+- **String literal:** Sequence of characters enclosed in double quotes.
+- **For statement:** Control statement that provides iterative execution, often used to step through a data structure or to repeat a calculation a fixed number of times.
+- **If statement:** Conditional execution based on the value of a specified condition; if the condition is true, the if body is executed; if not, control flows to the statement following the else.
+- **Class:** C++ mechanism for defining our own data structures, one of the most fundamental features in C++; library types, such as `istream` and `ostream`, are classes.
+- **Class type:** A type defined by a class; the name of the type is the class name.
+- **Data structure:** A logical grouping of data and operations on that data.
+- **Member function (method):** An operation defined by a class; member functions ordinarily are called to operate on a specific object.
+- **() operator:** The call operator, a pair of parentheses "()" following a function name; the operator causes a function to be invoked, and arguments to the function may be passed inside the parentheses.
+- **. operator:** Dot operator, which takes two operands: the left-hand operand is an object and the right is the name of a member of that object; the operator fetches that member from the named object.

@@ -1,0 +1,355 @@
+
+
+- [[Lecture 01 Introduction to Medical Robotics Definitions and Classification]]
+    
+    - **Introduction to Medical Robotics & Classification**
+    - **Definitions**
+        - Industry 4.0
+        - Robotics
+            - Linear Robot
+            - Continuum Robotics
+    - **Healthcare Evolution**
+        - Healthcare 1.0 to Healthcare 5.0
+        - Key aspects of Healthcare 4.0 and 5.0 (Remote care and telehealth, Smart health, Connected care, Personalised medicine, Artificial Intelligence in healthcare, Autonomous medical robotics)
+    - **Turing Test / Imitation Game**
+        - Test of a machine's ability to exhibit “intelligent behaviour”
+        - Behaviour indistinguishable from a human
+        - Result depends on the machine's ability to give answers
+    - **Examples of Medical Robotics**
+        - Surgical Robotics
+            - Telemanipulated surgical interventions
+            - Robotic positioning devices
+            - Robotic hands-on guidance
+            - …
+        - Surgical Training Robotics
+            - Virtual/Augmented reality simulators
+            - Surgical simulators including haptics, robot control
+            - …
+        - Assistive Robotics
+            - Protheses (artificial lower or upper limb) including sensors
+            - …
+    - **Medical Robotics and AI**
+        - Diagnosis (Brain tumor detection, COVID-19 detection)
+        - Treatment (Task autonomy in surgical robotics, Intelligent assistive systems)
+    - **Classification of Medical Robots**
+        - **Task Dimension**
+            - Autonomy Level (Technology assistance, Task autonomy, Conditional autonomy, High autonomy, Full autonomy)
+        - **Use Dimension**
+            - Application (Surgery, Assistive, Rehabilitation, Telemedicine, Prediction and precision medicine, Healthcare administration)
+            - Care Duration (Longer term, Shorter term)
+        - **Technology Dimension**
+            - Type of system (Physical, Virtual, Hybrid)
+            - Intrusion into Patient (Inside, On, Outside the body)
+    - **Autonomy Levels**
+        - Trend toward Increasing Autonomy
+    - **Summary: Introduction**
+        - Medical Robotics cover a wide field of applications
+        - Machine learning is a subset of AI; Deep Learning is a subset of ML
+        - AI enables more patient-centered medicine, i.e. 5P medicine
+        - Combination of Robotics and AI enables cognitive robots
+        - Cognitive robotics require “enabling technologies”
+        - Several autonomy levels exist; no fully autonomous medical robotics currently
+    - **Exercise Questions**
+- [[Lecture 02 AI Fundamentals]]
+    
+    - **Artificial Intelligence (AI)**
+        - Ability of a machine to imitate intelligent human behavior
+    - **Machine Learning (ML)**
+        - Sub-set of AI
+        - Enables computers to learn from data, identify patterns, and make predictions/decisions without explicit programming (e.g., statistical methods)
+    - **Taxonomy of AI**
+        - **Symbolic AI**
+            - Expert systems
+            - Knowledge base
+            - Reasoning / Logic
+            - …
+        - **Natural Language Processing (NLP)**
+            - Text generation
+            - Question answering
+            - Context extraction
+            - …
+        - **Vision**
+            - Deep learning
+            - Image recognition
+            - Computer vision
+        - **Speech**
+            - Speech to text
+            - Text to speech
+    - **Machine Learning Types**
+        - **Supervised Learning**
+            - Classification
+                - Logistic regression
+                - Support vector machine
+                - K-nearest neighbor
+                - Decision tree (for classification)
+                - Random forest (for classification)
+            - Regression
+                - Linear regression
+                - Polynomial regression
+                - Decision tree (for predictive modeling)
+                - Random forest (for predictive modeling)
+        - **Unsupervised Learning**
+            - Clustering
+                - Centroid-based clustering (e.g., K-means)
+                - Density-based clustering
+            - Compression/Density Fitting
+            - Dimensionality Reduction
+        - **Reinforcement Learning**
+        - With or without deep learning
+    - **Generalization**
+        - Central problem in machine learning and statistical modeling
+        - Learned models must generalize to new, unseen data (no underfitting or overfitting)
+    - **Neural Networks and Deep Learning**
+        - Human brain contains billions of neurons
+        - Dendrites receive inputs
+        - Axons carry outputs
+        - Interconnected neurons for efficient communication
+        - Deep Neural Networks require vast amounts of high-quality data, often difficult to obtain in medicine
+    - **Summary: AI Fundamentals**
+    - **Exercise Questions**
+- [[Lecture 03 Medical Imaging and AI]]
+    
+    - **Imaging Techniques in Medicine**
+        - X-ray
+        - Computed tomography (CT)
+        - Magnetic resonance imaging (MRI, fMRI, NMR)
+        - Sonography (ultrasound (US))
+        - Optical Coherence Tomography (OCT)
+        - Optical surface scan
+        - Positron Emission Tomography (PET)
+        - Single Positron Emission Computed Tomography (SPECT)
+        - Thermography
+        - Digital subtraction radiography
+        - Scintigraphy
+        - Contrast image
+        - Endoscopic image
+    - **Tomography**
+        - From ancient Greek ('section' and 'write')
+        - Projection image vs. Sectional image
+    - **Types of Medical Images**
+        - Different Imaging Modalities (examples listed above)
+        - Different Models
+            - Layered images/tomography (slices, 3D?)
+            - Volumetric image (3D)
+            - Surface Image (3D), Surface Image Film (4D)
+    - **AI in Medical Imaging**
+    - **AI in Radiology**
+        - Radiology defined
+        - Interventional radiology defined
+        - Majority of FDA-approved AI devices focus on radiology
+    - **Radiomics**
+        - Processing of radiological imaging data
+    - **AI in Radiology AI vs. Human**
+        - AI error rate lower than human error in object detection (ImageNet example)
+    - **AI in Radiology Challenges**
+        - Data Quality and Diversity
+        - Lack of Availability (of large, annotated datasets)
+        - Data Privacy and Security
+        - Generalization (domain shift)
+        - Black-Box-Approach (explainability and interpretability needed)
+    - **AI in Medical Imaging Applications**
+        - Image Classification (Determining type/category of disease)
+        - Image Segmentation (Identifying and delineating structures/regions)
+            - Support for surgeons (visualization, guided surgery, reduced cognitive load)
+            - Support robotic surgery (robotic scene understanding)
+            - Semantic segmentation
+            - U-net for biomedical image segmentation
+            - Examples (Abdominal, Brain Tumor)
+        - Feature Detection (Locating specific features/anomalies)
+        - Registration and Alignment (Combining/comparing images)
+        - Predictive Analysis (Predicting disease progression/outcomes)
+    - **Take-Aways: AI in Medical Imaging**
+    - **Exercise Questions**
+- [[Lecture 04 Surgical Workflow and AI]]
+    
+    - **Surgical Process Models (SPM)**
+        - **Definition:** Set of sequential and parallel activities; simplified, formal/semiformal representations of surgery-related activities
+        - **Motivation:**
+            - Clinical (OR management, surgical training and assessment)
+            - Technical (Requirements analysis, product specification)
+    - **Aspects of Intraoperative Situations**
+    - **Modeling Strategies**
+        - Model representation
+        - Generalization
+    - **Concepts of SPM**
+        - **Granularity Level:** Level of detail (Procedure, Phase, Step, Activity/Task, Motion)
+        - **Data Acquisition:** Observer-based, Video/images, Manual collection, Literature study, Expert interviews
+        - **Modeling Approach:** Top-Down, Bottom-Up
+        - **Generalization:** Patient-individual SPM (iSPM), Generalized SPM (gSPM)
+    - **Surgical Datasets**
+        - Challenges (Class imbalance, Patient-individual variations, Input Noise, Incompatibility, Annotation quality & cost, Granularity, Size)
+    - **Learning Approaches**
+        - Statistical description
+        - **Hidden Markov Models (HMM)**
+            - Used to classify and generate time series (sequence)
+            - Components: hidden states, transition probabilities, observation probabilities, initial state distribution
+            - Use cases in surgery
+        - **Random Forests**
+            - Ensemble method
+            - Used for classification or regression of steps/phases
+    - **Example: Cholecystectomy**
+        - Detect the surgical phases
+    - **Take-Aways: Surgical Workflow and AI**
+    - **Practice Questions & Literature**
+- [[Lecture 05 Surgical Robotics 1]]
+    
+    - **Autonomous Surgical Robotics Requirements**
+    - **Surgical Robotics Requirements**
+        - Visualization & interfaces
+        - Perception & Cognition
+        - Autonomous Robot Control
+        - Human-Robot Co-Operation
+        - Sensing and Understanding of Tasks and Process (Surgical Phases)
+        - Real World Tasks
+        - Planning & Optimization
+        - Demonstrations
+        - Simulation
+        - Tissue Properties & Modeling
+    - **Perception/Cognition of Surgical Robots**
+        - Understanding the surgical site – Semantic segmentation of organs and tissue
+        - Examples of Robot Perception and Cognition
+            - Image-based CNN
+            - Spatial-temporal fusion
+            - Optical flow-based CNN
+    - **Surgical Simulation for Robot Learning**
+        - Residency education
+        - Skills practice
+        - Evaluate surgeons
+        - Training of adverse events/special cases
+        - Training on patient-specific anatomy/plans
+        - Non-destructive robot learning
+        - Evaluation and optimization of policies
+    - **Autonomy Levels of Surgical Robots**
+        - Range from 0 (no autonomy) to 5 (full autonomy)
+        - No systems have reached full autonomy (yet)
+    - **Robotic autonomy requires**
+        - Perception (sensing) of environment
+        - Cognition (interpretation and interaction)
+- **Lecture 06: Surgical Robotics II**
+    
+    - **Robot Learning in Surgery**
+        - Challenges: limited repetitions, ethical concerns
+    - **Training of surgical robot**
+        - Simulation
+        - Medical Phantom
+        - Ex-vivo model
+        - Animal model
+        - Human
+    - **Practice Questions**
+        - Difference between value learning and policy learning
+        - Dense / sparse rewards (advantages/disadvantages)
+        - Outline the leader-follower concept for teleoperation
+- [[Lecture 07 Rehabilitation Robotics]]
+    
+    - **Motion Impairments**
+        - **Stroke**
+            - Ischemic stroke
+            - Hemorrhagic stroke
+        - **Cerebral Palsy (CP)**
+            - Uncontrollable movements (dyskinesia, tremor)
+            - Poor balance and coordination (ataxia), weak muscles
+            - Mixed CP
+        - **Spinal Cord Injury (SCI)**
+            - Complete SCI
+            - Incomplete SCI
+    - **Neuroplasticity**
+        - Brain's ability to change and adapt
+        - Structural plasticity
+        - Functional plasticity
+    - **Examples of Rehabilitation Robots**
+        - ARMin series
+    - **Assessment**
+        - Fugl-Meyer Assessment (FMA)
+    - **Practice Questions**
+- **Lecture 08: Human-Robot Interaction in Medicine**
+    
+    - **Terms and Definitions**
+        - Definition of Human Machine/Computer Interaction (HCI)
+        - Interaction Modalities
+            - Touch, Auditory, Vision, Movement, Brainwaves, Haptics, Gestures, Proximity, Thermal
+        - Interfaces
+            - Graphical User Interfaces (GUIs), Command-Line Interfaces, Voice User Interfaces, Haptic Interfaces, Gesture-based Interfaces, Brain-Computer Interfaces, Wearable Interfaces, Physical or Hardware Interfaces
+    - **General Overview of Human Robot Interaction**
+    - **Human-robot interaction Types of Interfaces**
+        - Multi-modal Interfaces
+        - Brain-Computer Interfaces (BCIs)
+    - **Communication through social cues**
+        - Facial Expressions
+        - Eye Behavior
+        - Body Language
+    - **Applications**
+        - Patient care robots
+        - Rehabilitation robots
+        - Surgical robots
+    - **Explainable AI**
+        - Explainability of Deep Neural Networks for MRI Analysis of Brain Tumors
+        - Segmentation and Classification Results
+    - **End of Lecture 03 Human-Robot Interaction in Medicine** (Note: this seems to be a labeling error in the source, as the content is about HMI)
+- **Lecture 09: Care Robotics**
+    
+    - **Introduction**
+        - Shortage of care professionals, Rising costs of care, Changing family dynamics
+    - **Types of Care Robots**
+        - Assistance Robots
+        - Monitoring Robots
+        - Companion Robots
+        - Telepresence robots
+        - Rehabilitation Robots
+    - **Classification of Care Robots**
+    - **Robots in Care – What is important?**
+    - **Care robot literacy**
+    - **Sensors**
+        - Tactile, Cameras, RGB-D, 360° Microphones, Laserscanners, Infrared
+    - **Methods**
+        - NLP, Large Language Models, People Detection, Face Recognition, Path Planning, Teleoperation, Learning from Demonstration
+    - **Interfaces / Modalities**
+        - Displays, Touch, Natural Language, Tablets, Smartphones, PCs
+    - **Assistance robots in care**
+    - **Open Research Questions**
+    - **Exercise questions**
+- **Lecture 11: Design Criteria and Regulations for AI based Systems in Health**
+    
+    - **Announcements**
+        - Exam date
+        - Lecture Evaluation
+    - **Medical Robotics and Regulations**
+    - **Substantial Equivalence**
+        - Predicate device
+        - Essential requirements
+    - **Intended Use Of Medical Devices**
+        - Intended Use (Medical purpose)
+        - Normal Use (Authorized use, maintenance, transport, storage)
+    - **Risk Assessment Classes of Medical Devices**
+        - Class I (Low Risk)
+        - Class IIa (Low-Medium Risk)
+        - Class IIb (Medium-High Risk)
+        - Class III (High Risk)
+    - **Risk Assessment**
+        - Hazard Identification
+        - Severity of damage
+        - Probability of occurrence
+        - Acceptance of risk
+        - Control of risk
+        - Verification & Validation
+    - **Risk Assessment Medical Robotics Example**
+    - **Guiding Principles for AI/ML-based medical devices**
+        - Multi-Disciplinary Expertise
+        - Good Software Engineering and Security Practices
+        - Clinical Evaluation
+        - Performance Testing
+        - Clear, Essential Information for Users
+    - **Design Criteria For AI based systems**
+        - Design Research, Design Cycle
+        - Knowledge Base (Experience, Implicit knowledge, Domain knowledge)
+        - Rigor Cycle, Environment, Relevance Cycle (Individual anatomy/pathology, Technical systems, Adverse events)
+        - Data (Availability, High quality, Control, Documentation/Monitoring)
+        - Service Quality (Performance)
+        - System Quality (Safety, Security, Privacy)
+        - Clinician (Explainability, Transparency, Usability, Ethics/Regulatory)
+        - Information Quality (Trustworthiness)
+    - **EU AI Act**
+    - **MDR (Medical Device Regulation)**
+        - Core idea
+        - Essential requirements
+        - Role of classes I, IIa, IIb, III
+    - **Practice Questions**

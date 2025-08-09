@@ -1,0 +1,34 @@
+Lecture 2 covers computer architecture and compilers and can be summarised as follows:
+
+- **History of Computing:**
+    - The first working electronic computer was created in 1946 by Eckert and Mauchly.
+    - FORTRAN I, the first high-level language, was developed by John Backus and IBM between 1954 and 1957.
+- **Von Neumann Architecture:**
+    - The concept was first described in 1945 by John von Neumann.
+    - Data and code are binary coded in the same memory.
+    - The computer fetches, decodes, executes commands sequentially, and saves the result.
+    - Parameters include data width, addressing width, the number of registers, and the instruction set.
+- **Classification of Computer Architecture:**
+    - **CISC** (Complex Instruction Set Computer)
+    - **RISC** (Reduced Instruction Set Computer)
+- **Compiler Basics:**
+    - Compilers translate programming languages into machine-understandable code.
+- **Compiler Construction:**
+    - Programming languages are notations for describing computations to people and machines.
+    - A compiler is required to translate the code.
+- **Static/Dynamic Distinction:**
+    - C++ is statically typed.
+    - Python is dynamically typed.
+- **Environments and States:**
+    - Environment: mapping names to locations
+    - States: mapping from locations to values
+- **Scope:** Hierarchical in C++.
+- **Compiler Phases:**
+    - **Parsing:** Syntax tree creation
+    - **Semantic Analysis:** Uses syntax tree and symbol tables to gather type information and check for semantic consistency errors.
+    - **Intermediate Code Generation:** Generates code for an abstract machine.
+        - Easy to produce and translate to the target language.
+        - Uses three-address code.
+        - Requires temporary names for holding values.
+    - **Intermediate Code Optimization**
+- **Clang AST:** Clang provides a language front-end and tooling infrastructure for the C language family.

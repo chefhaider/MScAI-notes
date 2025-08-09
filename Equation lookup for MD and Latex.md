@@ -35,10 +35,8 @@ Creating a comprehensive table guideline for writing mathematical equations in M
 
 ```markdown
 Einstein's equation: \(E = mc^2\)
-```
-$$
-E = mc^2
-$$
+``` 
+Einstein's Equation:  $E = mc^2$ 
 
 #### Block Math
 
@@ -85,4 +83,155 @@ d &= e + f
 \end{align}
 $$
 
-This table and examples should help you format a wide range of mathematical expressions in Markdown.
+Markdown itself doesn’t support mathematical symbols natively, but in **Obsidian**, you can use **LaTeX syntax** (via MathJax) to write mathematical equations and symbols. Here's a comprehensive reference of commonly used LaTeX math symbols you can use in Obsidian.
+
+---
+
+## 🟩 Basic Syntax for Math in Obsidian
+
+- **Inline math**: `$...$`
+    
+- **Block math**: `$$...$$`
+    
+
+---
+
+## 🔣 Common LaTeX Math Symbols
+
+### **1. Greek Letters**
+
+```latex
+$\alpha$     → α       $\beta$     → β  
+$\gamma$     → γ       $\Gamma$    → Γ  
+$\delta$     → δ       $\Delta$    → Δ  
+$\epsilon$   → ε       $\varepsilon$ → ε  
+$\theta$     → θ       $\Theta$    → Θ  
+$\lambda$    → λ       $\Lambda$   → Λ  
+$\mu$        → μ       $\pi$       → π  
+$\Pi$        → Π       $\sigma$    → σ  
+$\Sigma$     → Σ       $\phi$      → φ  
+$\Phi$       → Φ       $\omega$    → ω  
+$\Omega$     → Ω  
+```
+
+---
+
+### **2. Superscripts and Subscripts**
+
+```latex
+$a^2$        → a²  
+$x_i$        → xᵢ  
+```
+
+---
+
+### **3. Fractions**
+
+```latex
+\frac{a}{b}  →  𝑎⁄𝑏
+```
+
+---
+
+### **4. Roots**
+
+```latex
+\sqrt{a}     → √a  
+\sqrt[n]{x}  → ⁿ√x
+```
+
+---
+
+### **5. Operators**
+
+```latex
++  -  \times → ×  
+\div         → ÷  
+\pm          → ±  
+\cdot        → ⋅  
+\leq         → ≤  
+\geq         → ≥  
+\neq         → ≠  
+=            → =
+```
+
+---
+
+### **6. Relations**
+
+```latex
+<    >  
+\approx     → ≈  
+\propto     → ∝  
+\infty      → ∞  
+```
+
+---
+
+### **7. Logic**
+
+```latex
+\land        → ∧  
+\lor         → ∨  
+\neg         → ¬  
+\implies     → ⇒  
+\iff         → ⇔  
+\forall      → ∀  
+\exists      → ∃  
+```
+
+---
+
+### **8. Set Theory**
+
+```latex
+\in          → ∈  
+\notin       → ∉  
+\subset      → ⊂  
+\supset      → ⊃  
+\cup         → ∪  
+\cap         → ∩  
+\emptyset    → ∅  
+\mathbb{R}   → ℝ (real numbers)  
+\mathbb{N}   → ℕ  
+\mathbb{Z}   → ℤ  
+```
+
+---
+
+### **9. Calculus**
+
+```latex
+\lim_{x \to 0} → lim(x → 0)  
+\int           → ∫  
+\sum           → ∑  
+\prod          → ∏  
+\frac{dy}{dx}  → dy/dx  
+\partial       → ∂  
+```
+
+---
+
+### **10. Matrices**
+
+```latex
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+```
+
+---
+
+### **11. Accents**
+
+```latex
+\hat{x}       → x̂  
+\bar{x}       → x̄  
+\vec{x}       → →x  
+\tilde{x}     → x̃  
+```
+
+---
+
+Would you like this in a downloadable cheat sheet or Obsidian snippet format?
