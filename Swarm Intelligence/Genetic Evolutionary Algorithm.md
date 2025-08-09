@@ -10,7 +10,8 @@
 **phenotype** - the coded individual
 $\mu$ - the populaiton size
 $\lambda$ - the number of off-springs generated in each iteration
-========
+
+
 the algorithm is called ($\mu$,$\lambda$ )- EA Algorithm
 
 *note: the best individual with best value of F dosent necessarily has to been included since it may have been removed from the selection process*
